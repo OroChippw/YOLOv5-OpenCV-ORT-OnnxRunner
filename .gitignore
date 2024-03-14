@@ -21,3 +21,6 @@ data/
 *.so
 *.exp
 *.pdb
+
+# zip
+*.zip

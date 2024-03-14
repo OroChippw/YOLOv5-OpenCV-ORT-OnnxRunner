@@ -136,8 +136,8 @@ class yolov5():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--imgpath', type=str, default='images/bus.jpg', help="image path")
-    parser.add_argument('--modelpath', type=str, default='weights/yolov5l6.onnx')
+    parser.add_argument('--imgpath', type=str, default='images/zidane.jpg', help="image path")
+    parser.add_argument('--modelpath', type=str, default='weights/yolov5n6.onnx')
     parser.add_argument('--confThreshold', default=0.3, type=float, help='class confidence')
     parser.add_argument('--nmsThreshold', default=0.5, type=float, help='nms iou thresh')
     parser.add_argument('--objThreshold', default=0.3, type=float, help='object confidence')
